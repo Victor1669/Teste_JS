@@ -1,0 +1,33 @@
+body {
+    margin: 0px;
+}
+
+p {
+    text-align: center;
+    font-size: 30px;
+}
+
+button {
+    margin: 5px;
+    font-size: 20px;
+    opacity: 0.5;
+    border: solid rgb(0, 0, 255);
+}
+
+button:hover {
+    opacity: 1;
+    border: solid rgb(255, 0, 0);
+}
+
+.parte-1, .parte-2, .parte-3, .parte-4 {
+    display: flex;
+    justify-content: center;
+}
+
+.passo {
+    display: none;
+}
+
+.passo.ativo {
+    display: block;
+}
